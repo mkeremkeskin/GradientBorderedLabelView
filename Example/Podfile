@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GradientBorderedLabelView_Example' do
+  pod 'GradientBorderedLabelView', :path => '../'
+
+  target 'GradientBorderedLabelView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
