@@ -7,7 +7,7 @@
 
 ## What does GradientBorderedLabelView do?
 
-<img src = "Screenshots/logo.png" >
+<img src = "Screenshots/gradientBorderedLabelViewLogo.png" >
 
 - You can add it from code or from storyboard
 - You can see changes on the fly from storyboard because it's IBDesignable
