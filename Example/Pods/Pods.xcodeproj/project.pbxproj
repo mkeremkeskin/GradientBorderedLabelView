@@ -14,7 +14,7 @@
 		81A812F2694C1384DAF2C80417A43C54 /* Pods-GradientBorderedLabelView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 193C9A60F857C010A2C0B430D261ED02 /* Pods-GradientBorderedLabelView_Example-dummy.m */; };
 		8BBAE55F37926ECA49FD148A4BCF0ECB /* GradientBorderedLabelView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8864027EA7FDAA8F40618ED4E25E8 /* GradientBorderedLabelView-dummy.m */; };
 		B1482AD8471CE5E54A6FB04A3870AD9D /* Pods-GradientBorderedLabelView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B219BBF5D203163A02723416C616EDE /* Pods-GradientBorderedLabelView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA44220921AD5F780031F100 /* GradientBorderedLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44220821AD5F780031F100 /* GradientBorderedLabelView.swift */; };
+		DA44220E21AD80700031F100 /* GradientBorderedLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44220C21AD80700031F100 /* GradientBorderedLabelView.swift */; };
 		DE1AC9CCDD85E90E9B3E646BD2E1A44A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		E4C3F9C84B949D00E2E0AB63807A6A73 /* Pods-GradientBorderedLabelView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DB77A9F5A51B71686F88F579F12AF0 /* Pods-GradientBorderedLabelView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -69,7 +69,7 @@
 		D1A8FE13594CB2D900394175FA33375A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D7DB77A9F5A51B71686F88F579F12AF0 /* Pods-GradientBorderedLabelView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GradientBorderedLabelView_Example-umbrella.h"; sourceTree = "<group>"; };
-		DA44220821AD5F780031F100 /* GradientBorderedLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBorderedLabelView.swift; sourceTree = "<group>"; };
+		DA44220C21AD80700031F100 /* GradientBorderedLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientBorderedLabelView.swift; sourceTree = "<group>"; };
 		EC0FC0B0B6C8801EC25A7777B73C2FD5 /* Pods-GradientBorderedLabelView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GradientBorderedLabelView_Tests-dummy.m"; sourceTree = "<group>"; };
 		FB59B115D82D46A3A2D3E97565EF0858 /* Pods-GradientBorderedLabelView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GradientBorderedLabelView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,7 +163,7 @@
 		760442E1794C384D8E99AC9C38DFC2FA /* GradientBorderedLabelView */ = {
 			isa = PBXGroup;
 			children = (
-				DA44220821AD5F780031F100 /* GradientBorderedLabelView.swift */,
+				DA44220A21AD80700031F100 /* Classes */,
 				C1B0A2D41FC9C7DC92AB407A1EF8FBDB /* Pod */,
 				6AE0984A5A20AFEB7FF2FACB0C6C538D /* Support Files */,
 			);
@@ -216,6 +216,15 @@
 			);
 			name = "Pods-GradientBorderedLabelView_Tests";
 			path = "Target Support Files/Pods-GradientBorderedLabelView_Tests";
+			sourceTree = "<group>";
+		};
+		DA44220A21AD80700031F100 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA44220C21AD80700031F100 /* GradientBorderedLabelView.swift */,
+			);
+			name = Classes;
+			path = GradientBorderedLabelView/Classes;
 			sourceTree = "<group>";
 		};
 		EE5BABC09FE33A04135BB893DFA30635 /* Targets Support Files */ = {
@@ -371,7 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BBAE55F37926ECA49FD148A4BCF0ECB /* GradientBorderedLabelView-dummy.m in Sources */,
-				DA44220921AD5F780031F100 /* GradientBorderedLabelView.swift in Sources */,
+				DA44220E21AD80700031F100 /* GradientBorderedLabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
