@@ -43,7 +43,7 @@ Or you can add it via code as below:
 
 ## Author
 
-mkeremkeskin@gmail.com / ([@mkeremkeskin](https://twitter.com/acaserop) on Twitter). 
+mkeremkeskin@gmail.com / ([@mkeremkeskin](https://twitter.com/mkeremkeskin) on Twitter). 
 
 ## License
 
