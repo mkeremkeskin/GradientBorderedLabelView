@@ -1,0 +1,16 @@
+PODS:
+  - GradientBorderedLabelView (0.1.0)
+
+DEPENDENCIES:
+  - GradientBorderedLabelView (from `../`)
+
+EXTERNAL SOURCES:
+  GradientBorderedLabelView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GradientBorderedLabelView: 509f38f92a4d2f30ef1592e5c0a645ecf360f451
+
+PODFILE CHECKSUM: 3a35d5ec118007db94842b985b5d710692ac5f90
+
+COCOAPODS: 1.5.3

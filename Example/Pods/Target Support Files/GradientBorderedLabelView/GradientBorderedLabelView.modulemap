@@ -1,0 +1,6 @@
+framework module GradientBorderedLabelView {
+  umbrella header "GradientBorderedLabelView-umbrella.h"
+
+  export *
+  module * { export * }
+}
