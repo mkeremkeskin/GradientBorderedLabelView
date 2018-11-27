@@ -10,11 +10,11 @@
 		146DB9F1E27EBF72A8E6A2EB84281BC4 /* Pods-GradientBorderedLabelView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0FC0B0B6C8801EC25A7777B73C2FD5 /* Pods-GradientBorderedLabelView_Tests-dummy.m */; };
 		2EF135144B89F3E40DFB521A1C296C42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		2FAB1857629F18DC4D0D2793556D1F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		4467D9955F3AD6C4EBA870EA12F2DBB3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C2B1FC5825BAC2C2F3A9CCD3F6E51 /* ReplaceMe.swift */; };
 		56478366C4B318A2771794800EC983FA /* GradientBorderedLabelView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 153446E40E685F85639830E07979CC33 /* GradientBorderedLabelView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81A812F2694C1384DAF2C80417A43C54 /* Pods-GradientBorderedLabelView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 193C9A60F857C010A2C0B430D261ED02 /* Pods-GradientBorderedLabelView_Example-dummy.m */; };
 		8BBAE55F37926ECA49FD148A4BCF0ECB /* GradientBorderedLabelView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8864027EA7FDAA8F40618ED4E25E8 /* GradientBorderedLabelView-dummy.m */; };
 		B1482AD8471CE5E54A6FB04A3870AD9D /* Pods-GradientBorderedLabelView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B219BBF5D203163A02723416C616EDE /* Pods-GradientBorderedLabelView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA44220921AD5F780031F100 /* GradientBorderedLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44220821AD5F780031F100 /* GradientBorderedLabelView.swift */; };
 		DE1AC9CCDD85E90E9B3E646BD2E1A44A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		E4C3F9C84B949D00E2E0AB63807A6A73 /* Pods-GradientBorderedLabelView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DB77A9F5A51B71686F88F579F12AF0 /* Pods-GradientBorderedLabelView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -46,30 +46,30 @@
 		366FF974E563C41DF1C55D655B7C2B33 /* GradientBorderedLabelView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GradientBorderedLabelView.modulemap; sourceTree = "<group>"; };
 		385F27C8683CE01CB641737A007C9DD9 /* Pods-GradientBorderedLabelView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GradientBorderedLabelView_Tests.modulemap"; sourceTree = "<group>"; };
 		3C8AB03AEDF4BAB940AD53E1E3DA0310 /* Pods-GradientBorderedLabelView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GradientBorderedLabelView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		46F8BBADC75B817C510FB6C1280697EA /* Pods_GradientBorderedLabelView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GradientBorderedLabelView_Tests.framework; path = "Pods-GradientBorderedLabelView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A2C94F9B2F09E267B32F4A276CC2E71 /* Pods_GradientBorderedLabelView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GradientBorderedLabelView_Example.framework; path = "Pods-GradientBorderedLabelView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6186DB9BD3655C93A147FD9019AA5AD8 /* GradientBorderedLabelView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GradientBorderedLabelView.framework; path = GradientBorderedLabelView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F8BBADC75B817C510FB6C1280697EA /* Pods_GradientBorderedLabelView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradientBorderedLabelView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2C94F9B2F09E267B32F4A276CC2E71 /* Pods_GradientBorderedLabelView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradientBorderedLabelView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6186DB9BD3655C93A147FD9019AA5AD8 /* GradientBorderedLabelView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GradientBorderedLabelView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6645FE9FC90E238AA65B8788FC2E11DA /* Pods-GradientBorderedLabelView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GradientBorderedLabelView_Tests-resources.sh"; sourceTree = "<group>"; };
 		6C0633A74B3634B1F5D1B4D89D4617E8 /* Pods-GradientBorderedLabelView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GradientBorderedLabelView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6D5A723BBDE426F50505700C6F2BE752 /* Pods-GradientBorderedLabelView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GradientBorderedLabelView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6F5C2A660DCCC1EA21E9222586EC6661 /* Pods-GradientBorderedLabelView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GradientBorderedLabelView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7883721751FA98C14C06E2F3A7D73B8D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7883721751FA98C14C06E2F3A7D73B8D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		869A7769D67C95E0BAD23C7B80B4E56C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B219BBF5D203163A02723416C616EDE /* Pods-GradientBorderedLabelView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GradientBorderedLabelView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8DF08138D50C12CDCCAD97EFBBE2E456 /* Pods-GradientBorderedLabelView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GradientBorderedLabelView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A89912BB71EC5997D49706EB6506BCC /* Pods-GradientBorderedLabelView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GradientBorderedLabelView_Example.modulemap"; sourceTree = "<group>"; };
-		9E7151F3387DEE2897819C3A7FE5DC6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9E7151F3387DEE2897819C3A7FE5DC6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A56A6A63A5550181FF7802E93F0AC1F7 /* Pods-GradientBorderedLabelView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GradientBorderedLabelView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AEF8864027EA7FDAA8F40618ED4E25E8 /* GradientBorderedLabelView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GradientBorderedLabelView-dummy.m"; sourceTree = "<group>"; };
 		BF9036D3D6C9CC155DBC29F70F1E43C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C26A8A7CE1A5E0AB4399E8BB1A80B9BC /* GradientBorderedLabelView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientBorderedLabelView.xcconfig; sourceTree = "<group>"; };
-		CBC9880D86CF81529C14F398304FB8DB /* GradientBorderedLabelView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GradientBorderedLabelView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CBC9880D86CF81529C14F398304FB8DB /* GradientBorderedLabelView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GradientBorderedLabelView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D018CD0C838C09186763C775454E76FE /* Pods-GradientBorderedLabelView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GradientBorderedLabelView_Example-resources.sh"; sourceTree = "<group>"; };
 		D1A8FE13594CB2D900394175FA33375A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D7DB77A9F5A51B71686F88F579F12AF0 /* Pods-GradientBorderedLabelView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GradientBorderedLabelView_Example-umbrella.h"; sourceTree = "<group>"; };
-		DA0C2B1FC5825BAC2C2F3A9CCD3F6E51 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GradientBorderedLabelView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DA44220821AD5F780031F100 /* GradientBorderedLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBorderedLabelView.swift; sourceTree = "<group>"; };
 		EC0FC0B0B6C8801EC25A7777B73C2FD5 /* Pods-GradientBorderedLabelView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GradientBorderedLabelView_Tests-dummy.m"; sourceTree = "<group>"; };
 		FB59B115D82D46A3A2D3E97565EF0858 /* Pods-GradientBorderedLabelView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GradientBorderedLabelView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,7 +163,7 @@
 		760442E1794C384D8E99AC9C38DFC2FA /* GradientBorderedLabelView */ = {
 			isa = PBXGroup;
 			children = (
-				DA0C2B1FC5825BAC2C2F3A9CCD3F6E51 /* ReplaceMe.swift */,
+				DA44220821AD5F780031F100 /* GradientBorderedLabelView.swift */,
 				C1B0A2D41FC9C7DC92AB407A1EF8FBDB /* Pod */,
 				6AE0984A5A20AFEB7FF2FACB0C6C538D /* Support Files */,
 			);
@@ -371,7 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BBAE55F37926ECA49FD148A4BCF0ECB /* GradientBorderedLabelView-dummy.m in Sources */,
-				4467D9955F3AD6C4EBA870EA12F2DBB3 /* ReplaceMe.swift in Sources */,
+				DA44220921AD5F780031F100 /* GradientBorderedLabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,8 +563,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -653,7 +652,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GradientBorderedLabelView/GradientBorderedLabelView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GradientBorderedLabelView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GradientBorderedLabelView/GradientBorderedLabelView.modulemap";
 				PRODUCT_MODULE_NAME = GradientBorderedLabelView;
@@ -685,7 +684,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GradientBorderedLabelView/GradientBorderedLabelView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GradientBorderedLabelView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GradientBorderedLabelView/GradientBorderedLabelView.modulemap";
 				PRODUCT_MODULE_NAME = GradientBorderedLabelView;
