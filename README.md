@@ -6,6 +6,9 @@
 [![Platform](https://img.shields.io/cocoapods/p/GradientBorderedLabelView.svg?style=flat)](https://cocoapods.org/pods/GradientBorderedLabelView)
 
 ## What does GradientBorderedLabelView do?
+
+<img src = "Screenshots/logo.png" >
+
 - You can add it from code or from storyboard
 - You can see changes on the fly from storyboard because it's IBDesignable
 - What If you are using autolayout or dynamic size? GradientBorderedLabelView will arrange font size according to label's size. No need to worry.
