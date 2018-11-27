@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod 'GradientBorderedLabelView'
 ```
 
+## Screenshots
+<img src = "Screenshots/storyboard.png" width = "1200" >
+<img src = "Screenshots/simulator.png" width= "600">
+
 ## Author
 
 mkeremkeskin, mkeremkeskin@gmail.com
