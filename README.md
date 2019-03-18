@@ -43,6 +43,11 @@ Or you can add it via code as below:
 <img src = "Screenshots/storyboard.png" width = "1200" >
 <img src = "Screenshots/simulator.png" width= "600">
 
+## Detailed explanation
+You can find detailed explanation about what is the aim behind this library and how does its inner components work on my medium post. 
+
+https://medium.com/dolap-tech/gradient-bordered-label-view-on-ios-37bc97076ef2
+
 ## Author
 
 mkeremkeskin@gmail.com / ([@mkeremkeskin](https://twitter.com/mkeremkeskin) on Twitter). 
